@@ -83,15 +83,18 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "Instagram",
-      src: "/instagram.svg",
+      src: "/instagram.png",
+      link: "https://instagram.com/mmk4.official"
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Telegram", 
+      src: "/telegram.png", 
+      link: "https://t.me/mmk4_81", 
     },
     {
-      name: "Discord",
-      src: "/discord.svg",
+      name: "linkedin",
+      src: "/linkedin1.png", 
+      link: "https://www.linkedin.com/in/mmkarbalaei"
     },
   ];
   
