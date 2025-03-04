@@ -25,7 +25,9 @@ export default function RootLayout({
         <StarsCanvas />
         <Navbar />
         {children}
+        <section id="footer">
         <Footer />
+        </section>
       </body>
     </html>
   );

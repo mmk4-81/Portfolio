@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">
-      <section id="about-me"> {/* اضافه کردن id */}
+      <section id="about-me"> 
           <Hero />
         </section>
-        <section id="skils"> {/* اضافه کردن id */}
+        <section id="skils"> 
           <Skils />
         </section>
-        <section id="projects"> {/* اضافه کردن id */}
+        <section id="projects">
           <Project />
         </section>
       </div>
