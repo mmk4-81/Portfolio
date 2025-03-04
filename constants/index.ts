@@ -215,25 +215,13 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
-    {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Docker",
-      Image: "/docker.webp",
-      width: 70,
-      height: 70,
-    },
-  
+    // {
+    //   skill_name: "React Native",
+    //   Image: "/ReactNative .png",
+    //   width: 70,
+    //   height: 70,
+    // },
+   
     {
       skill_name: "Figma",
       Image: "/figma.png",
@@ -245,14 +233,7 @@ export const Skill_data = [
   
   
   
-  export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/go.png",
-      width: 60,
-      height: 60,
-    },
-  ];
+ 
   
   
   
