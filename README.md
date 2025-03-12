@@ -28,8 +28,8 @@
 برای اجرای پروژه به صورت محلی، مراحل زیر را دنبال کنید:  
 
 ```bash
-git clone [لینک ریپازیتوری شما]
-cd [نام پروژه]
+git clone https://github.com/mmk4-81/Space-Portfolio.git
+cd Space-Portfolio
 npm install
 npm run dev
 ```
@@ -46,4 +46,4 @@ npm run dev
 - 💼 لینکدین: mmkkarbalaei
 - 🐙 ایسنتاگرام: mmk4.official
 
--🌌 بیایید با هم دنیای دیجیتال را کشف کنیم! 🚀✨
+🌌 بیایید با هم دنیای دیجیتال را کشف کنیم! 🚀✨
