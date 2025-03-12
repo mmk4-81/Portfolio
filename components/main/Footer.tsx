@@ -86,10 +86,11 @@ const Footer = () => {
             </div>
             <p className="flex flex-row items-center my-[15px] cursor-pointer text-justify max-w-[300px]">
               <span className="text-[15px] ml-[6px]">
-                I'm a passionate Full Stack Developer with expertise in building
-                modern web. I specialize in creating user-friendly, scalable,
-                and efficient solutions using the latest technologies. Let's
-                collaborate and bring your ideas to life!
+                I&apos;m a passionate Full Stack Developer with a focus on
+                building modern web applications. I specialize in creating
+                user-friendly, scalable, and efficient solutions using the
+                latest technologies. Let&apos;s collaborate and bring your ideas
+                to life!
               </span>
             </p>
           </div>
