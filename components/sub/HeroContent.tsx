@@ -33,9 +33,16 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>
-          project expreience
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {" "}
+              the best{" "}
+            </span>
+            project experience
+            <br /><br/>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              {`by MMk`}
+            </span>
           </span>
         </motion.div>
 
@@ -43,21 +50,22 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website
-          and Software development. Check out my projects and skills.
+          I&apos;m a Front end developer with experience in Website and
+          Software development. Check out my projects and skills.
         </motion.p>
 
         <motion.a
           variants={slideInFromLeft(1)}
+          href="/path/to/your/cv.pdf" 
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          Download CV
         </motion.a>
       </div>
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex-justify-center items-center"
+        className="w-full h-full flex justify-center items-center"
       >
         <Image
           src="assets/images/mainIconsdark.svg"
