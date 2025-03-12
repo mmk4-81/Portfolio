@@ -5,7 +5,7 @@ import { Points, PointMaterial } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.esm";
 
 const StarBackground = (props: React.ComponentProps<typeof Points>) => {
-  const ref = useRef<THREE.Points>(null);
+  const ref = useRef<THREE.Points>(null!);
   
   const [sphere] = useState(() => random.inSphere(new Float32Array(5000), { radius: 1.2 }));
 
